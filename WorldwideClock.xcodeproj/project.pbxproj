@@ -14,6 +14,7 @@
 		56D9F012CCAC2FD8FC719C61 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11112269C45D81C67ECDF44A /* City.swift */; };
 		5E1E62FA42542EE6AB77F5AC /* ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39511F8B82E16FCAAB9F40 /* ClockFace.swift */; };
 		99A50F3EBFEC0C8C5F7D7CE6 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11112269C45D81C67ECDF44A /* City.swift */; };
+		A44DC7A9AA8D1E2D575CFFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3587FFFE7A2DF216707342 /* Assets.xcassets */; };
 		C57F31707C019D293AA1D230 /* WorldwideClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F549D574B99BF00B41B69A2D /* WorldwideClockApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		0E5E383012A6E4391915D0DC /* WorldwideClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldwideClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11112269C45D81C67ECDF44A /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		43C3D8ECA6D883F225D6DD64 /* TimeZoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneService.swift; sourceTree = "<group>"; };
+		5C3587FFFE7A2DF216707342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96910288C03D6CB606300694 /* ClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidget.swift; sourceTree = "<group>"; };
 		CA39511F8B82E16FCAAB9F40 /* ClockFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockFace.swift; sourceTree = "<group>"; };
 		CD523C9FBD584C4441944DB5 /* ClockWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClockWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 		8C284BBC5751E3665C26BDB2 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				5C3587FFFE7A2DF216707342 /* Assets.xcassets */,
 				43C3D8ECA6D883F225D6DD64 /* TimeZoneService.swift */,
 				F549D574B99BF00B41B69A2D /* WorldwideClockApp.swift */,
 			);
@@ -122,6 +125,7 @@
 			buildConfigurationList = 8946F1B6D9B357F88F799FCB /* Build configuration list for PBXNativeTarget "WorldwideClock" */;
 			buildPhases = (
 				5FEDC0F4A16739037577AB14 /* Sources */,
+				4F618BFA91ADA4F8FEFA9BEE /* Resources */,
 				C2FABDBBD77B9E4E6D2A3057 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
@@ -172,6 +176,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F618BFA91ADA4F8FEFA9BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44DC7A9AA8D1E2D575CFFCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5FEDC0F4A16739037577AB14 /* Sources */ = {
